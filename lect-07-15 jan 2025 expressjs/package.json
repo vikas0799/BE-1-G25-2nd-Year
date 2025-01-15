@@ -1,0 +1,18 @@
+{
+  "name": "lect-07-15-jan-2025-expressjs",
+  "version": "1.0.0",
+  "description": "express starting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "g25",
+    "chitkara"
+  ],
+  "author": "vikas patel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
