@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index ejs file</title>
+</head>
+<body>
+     <h1>welocme to index ejs file in G25</h1>
+     <% let name="urmeet" %>
+     <%= name %>
+
+     <p>Lorem ipsum dolor Name :  <%= name %>  sit amet consectetur.</p>
+     <% let x=19 %>
+     <% if (x<18) { %>
+         <h1>you cannot give vote</h1>
+          <p> x is less than 18</p>
+      <% } else { %>
+        <h1>you can give vote</h1>
+        <p> x is greater than 18</p>
+        <% } %>
+       
+         <% for( let index = 0; index < 10; index++ ) { %>
+            <h1>index is: <%= index %></h1>
+            <% } %>
+
+    <% let arr=[23,56,35,"chitkara","university",true]   %>
+       <ul>
+        <% arr.forEach(element => { %>
+                <li><%= element %></li>
+        <% }) %>
+       </ul>
+
+    </body>
+</html>
